@@ -4,15 +4,24 @@ let cartao = document.createrElement('article')
 cartao.className = 'cartao'
 cartao.innerHTML = `
 <div class="cartao__conteudo">
-            <h3>Programação</h3>
+            <h3>${categoria}</h3>
             <div class="cartao__conteudo__pergunta">
-                <p>O que é CSS?</p>
+                <p>${pergunta}</p>
             </div>
             <div class="cartao__conteudo__resposta">
-                <p>O CSS é uma linguagem de estilização.</p>
+                <p>${resposta}</p>
             </div>
         </div>
 `
+
+
+let respostaEstaVisivel = false
+
+function viraCartao (){
+    respostaEstaVisivel = !respostaEstaVisivel
+    cartao.classList.toggle('active, respostaEstaVisivel')
+}
+cartao.addEventListenner('click', viraCartao)
 
 container.appendChild(cartao)
 }
