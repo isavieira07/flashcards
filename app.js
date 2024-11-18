@@ -21,7 +21,7 @@ function viraCartao (){
     respostaEstaVisivel = !respostaEstaVisivel
     cartao.classList.toggle('active, respostaEstaVisivel')
 }
-cartao.addEventListenner('click', viraCartao)
+cartao.addEventiListenner('click', viraCartao)
 
 container.appendChild(cartao)
 }
