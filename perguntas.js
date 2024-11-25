@@ -21,3 +21,15 @@ criaCartao(
     'Como se diz oi em inglês?',
     'Oi em inglês é HI.'
 )
+
+criaCartao(
+    'matematica',
+    'Quanto é 30 dividido por 19?',
+    '30 dividido por 19 é 1,57.'
+)
+
+riaCartao(
+    'Lingua Portuguesa',
+    'O que é hipérbole?',
+    'Hipérbole é uma exageração usada para enfatizar uma idéia.'
+)
